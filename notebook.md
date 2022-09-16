@@ -2299,7 +2299,7 @@ df_hdi2019.head(30).plot.bar(ax=axes[1], x='Country Name', y='HDI')
 
 
     
-![png](output_56_1.png)
+![png](./outputs/output_56_1.png)
     
 
 
@@ -2332,7 +2332,7 @@ sns.violinplot(
 
 
     
-![png](output_58_1.png)
+![png](./outputs/output_58_1.png)
     
 
 
@@ -2369,13 +2369,13 @@ fig_hdi.show("svg")
 
 
     
-![svg](output_60_0.svg)
+![svg](./outputs/output_60_0.svg)
     
 
 
 
     
-![svg](output_60_1.svg)
+![svg](./outputs/output_60_1.svg)
     
 
 
@@ -2519,7 +2519,7 @@ df_users.head(50).plot.bar(x="Country Name", y="Users Percentage", figsize=(13, 
 
 
     
-![png](output_64_1.png)
+![png](./outputs/output_64_1.png)
     
 
 
@@ -2544,7 +2544,7 @@ fig_users.show("svg")
 
 
     
-![svg](output_65_0.svg)
+![svg](./outputs/output_65_0.svg)
     
 
 
@@ -2905,7 +2905,7 @@ sns.relplot(
 
 
     
-![png](output_73_1.png)
+![png](./outputs/output_73_1.png)
     
 
 
@@ -2930,7 +2930,7 @@ sns.relplot(
 
 
     
-![png](output_74_1.png)
+![png](./outputs/output_74_1.png)
     
 
 
@@ -2951,7 +2951,7 @@ sns.reset_orig()
 
 
     
-![png](output_76_0.png)
+![png](./outputs/output_76_0.png)
     
 
 
@@ -2985,7 +2985,7 @@ sns.swarmplot(y="Average speed", data=df_speeds, ax=axes[1])
 
 
     
-![png](output_81_1.png)
+![png](./outputs/output_81_1.png)
     
 
 
@@ -3017,13 +3017,13 @@ fig_speeds.show("svg")
 
 
     
-![svg](output_83_0.svg)
+![svg](./outputs/output_83_0.svg)
     
 
 
 
     
-![svg](output_83_1.svg)
+![svg](./outputs/output_83_1.svg)
     
 
 
@@ -3066,7 +3066,7 @@ sns.regplot(x="Average speed", y="Average price of 1GB", data=df_prices_and_spee
 
 
     
-![png](output_87_1.png)
+![png](./outputs/output_87_1.png)
     
 
 
@@ -3094,7 +3094,7 @@ fig_prices.show("svg")
 
 
     
-![svg](output_91_0.svg)
+![svg](./outputs/output_91_0.svg)
     
 
 
@@ -3115,7 +3115,7 @@ sns.despine(trim=True)
 
 
     
-![png](output_93_0.png)
+![png](./outputs/output_93_0.png)
     
 
 
@@ -3419,7 +3419,7 @@ g.plot_marginals(sns.rugplot, height=.9, color="r", alpha=1)
 
 
     
-![png](output_98_1.png)
+![png](./outputs/output_98_1.png)
     
 
 
@@ -3446,7 +3446,7 @@ df_prices_users.plot.line(y="Number of plans", x="Average price of 1GB", figsize
 
 
     
-![png](output_100_1.png)
+![png](./outputs/output_100_1.png)
     
 
 
@@ -3646,7 +3646,7 @@ sns.lineplot(
 
 
     
-![png](output_108_1.png)
+![png](./outputs/output_108_1.png)
     
 
 
@@ -3687,7 +3687,7 @@ sns.lineplot(
 
 
     
-![png](output_110_1.png)
+![png](./outputs/output_110_1.png)
     
 
 
@@ -3713,7 +3713,7 @@ sns.lineplot(
 
 
     
-![png](output_111_1.png)
+![png](./outputs/output_111_1.png)
     
 
 
@@ -3752,7 +3752,7 @@ sns.reset_orig()
 
 
     
-![png](output_113_0.png)
+![png](./outputs/output_113_0.png)
     
 
 
@@ -3910,7 +3910,7 @@ df_prices_and_speeds.head(75).plot.bar(x="Country Name", y="Convenience Index", 
 
 
     
-![png](output_118_1.png)
+![png](./outputs/output_118_1.png)
     
 
 
@@ -3932,7 +3932,7 @@ fig_convenience.show("svg")
 
 
     
-![svg](output_120_0.svg)
+![svg](./outputs/output_120_0.svg)
     
 
 
@@ -4503,13 +4503,13 @@ df_prices_and_speeds_and_users.plot.scatter(x="Number of plans", y="Convenience 
 
 
     
-![png](output_126_1.png)
+![png](./outputs/output_126_1.png)
     
 
 
 
     
-![png](output_126_2.png)
+![png](./outputs/output_126_2.png)
     
 
 
@@ -4654,7 +4654,7 @@ df_prices_and_speeds_and_users.plot.scatter(y="Convenience Index", x="Users Perc
 
 
     
-![png](output_130_1.png)
+![png](./outputs/output_130_1.png)
     
 
 
